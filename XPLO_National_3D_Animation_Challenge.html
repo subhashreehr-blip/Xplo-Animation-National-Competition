@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XPLO National 3D Animation Challenge</title>
+<meta name="description" content="Join the XPLO National 3D Animation Challenge. Create, animate, and showcase your talent.">
+<style>
+:root{--yellow:#FDB700;--dark:#111;--grey:#737373;--light:#f6f6f6;--white:#fff}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--dark);line-height:1.6;background:#fff}
+a{color:inherit}
+header{background:#111;color:#fff;position:sticky;top:0;z-index:10;border-bottom:3px solid var(--yellow)}
+.nav{max-width:1180px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-weight:900;letter-spacing:1.5px;font-size:1.35rem}.brand span{color:var(--yellow)}
+nav{display:flex;flex-wrap:wrap;gap:16px;justify-content:flex-end}
+nav a{text-decoration:none;font-size:.82rem;color:#eee;font-weight:700}
+nav a:hover{color:var(--yellow)}
+.hero{background:linear-gradient(120deg,#111 0%,#292929 70%,#3b310d 100%);color:white;padding:88px 22px 82px}
+.wrap{max-width:1120px;margin:auto}
+.eyebrow{color:var(--yellow);font-weight:800;text-transform:uppercase;letter-spacing:2px;font-size:.82rem}
+h1{font-size:clamp(2.4rem,6vw,4.8rem);line-height:1.04;max-width:800px;margin:15px 0 22px}
+.hero p{max-width:650px;color:#e2e2e2;font-size:1.12rem}
+.btn{display:inline-block;background:var(--yellow);color:#111;text-decoration:none;padding:13px 22px;border-radius:5px;font-weight:800;margin:12px 10px 0 0}
+.btn.outline{background:transparent;color:white;border:1px solid #aaa}
+section{padding:68px 22px}
+section:nth-of-type(even){background:var(--light)}
+h2{font-size:clamp(1.8rem,3vw,2.7rem);line-height:1.15;margin:0 0 15px}
+.lead{max-width:760px;color:#555;margin:0 0 30px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.card{background:white;border:1px solid #e5e5e5;border-radius:10px;padding:24px;box-shadow:0 5px 20px #00000008}
+.card h3{margin:0 0 9px;font-size:1.15rem}.card p{margin:0;color:#555}
+.number{font-size:2rem;font-weight:900;color:#b98600}
+.pill{display:inline-block;background:#fff1c2;padding:5px 10px;border-radius:30px;font-size:.78rem;font-weight:800}
+.steps{counter-reset:step;list-style:none;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.steps li{background:white;border:1px solid #e4e4e4;border-radius:9px;padding:20px}
+.steps li:before{counter-increment:step;content:counter(step,decimal-leading-zero);display:block;color:#b98600;font-weight:900;font-size:1.3rem;margin-bottom:8px}
+table{width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden}
+th,td{text-align:left;padding:14px;border-bottom:1px solid #e8e8e8}th{background:#111;color:white}
+.note{border-left:4px solid var(--yellow);background:#fff8df;padding:15px 18px;margin:22px 0}
+form{display:grid;gap:14px;max-width:650px}
+label{font-weight:700;font-size:.9rem}
+input,textarea,select{width:100%;padding:12px;border:1px solid #ccc;border-radius:5px;font:inherit;background:white}
+footer{background:#111;color:#ddd;padding:35px 22px}
+footer a{color:var(--yellow)}
+.small{font-size:.85rem;color:#777}
+@media(max-width:800px){.nav{align-items:flex-start;flex-direction:column}nav{justify-content:flex-start;gap:11px}.grid{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr}.hero{padding-top:60px}}
+@media(max-width:480px){.steps{grid-template-columns:1fr}section{padding:48px 18px}.hero{padding-left:18px;padding-right:18px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="brand">XPLO<span>°</span> ANIMATION</div>
+    <nav aria-label="Main navigation">
+      <a href="#home">HOME</a><a href="#about">ABOUT</a><a href="#competition">COMPETITION</a><a href="#rules">RULES</a><a href="#prizes">PRIZES</a><a href="#dates">IMPORTANT DATES</a><a href="#payment">PAYMENT</a><a href="#register">REGISTER</a><a href="#contact">CONTACT</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="wrap">
+    <div class="eyebrow">Create • Animate • Inspire</div>
+    <h1>XPLO National<br><span style="color:var(--yellow)">3D Animation Challenge</span></h1>
+    <p>Turn your imagination into motion. Show your 3D animation skills, challenge yourself with a creative brief, and get your work in front of industry professionals.</p>
+    <a class="btn" href="#register">REGISTER NOW</a>
+    <a class="btn outline" href="#competition">EXPLORE THE CHALLENGE</a>
+    <p class="small" style="color:#bbb;margin-top:25px">Organised by XPLO Animation Services Pvt. Ltd. • Online competition</p>
+  </div>
+</section>
+<section id="about">
+  <div class="wrap">
+    <div class="eyebrow">About the event</div><h2>A platform for emerging 3D talent</h2>
+    <p class="lead">The XPLO National 3D Animation Challenge invites students, aspiring artists, freelancers, and animation enthusiasts across India to demonstrate creativity, storytelling, and technical skill through an original 3D animation submission.</p>
+    <div class="grid">
+      <article class="card"><h3>Who can participate?</h3><p>Eligible participants from across India. Add your final age, student/professional eligibility, and team-size rules before publishing.</p></article>
+      <article class="card"><h3>Competition format</h3><p>Online registration, payment verification, creative brief distribution, digital submission, judging, and result announcement.</p></article>
+      <article class="card"><h3>What you'll create</h3><p>An original 3D animation based on the official theme and technical requirements announced by the organiser.</p></article>
+    </div>
+  </div>
+</section>
+<section id="competition">
+  <div class="wrap">
+    <div class="eyebrow">The challenge</div><h2>Bring a story to life in 3D</h2>
+    <p class="lead">Suggested demo brief — replace this with XPLO's approved final brief before opening registration.</p>
+    <div class="card">
+      <span class="pill">SAMPLE THEME</span>
+      <h3 style="font-size:1.5rem;margin-top:12px">“A Small Moment, A Big Story”</h3>
+      <p>Create a short original 3D animation that tells a clear story through character action, staging, timing, and visual communication. Your work may be humorous, emotional, adventurous, or imaginative.</p>
+      <p style="margin-top:14px"><strong>Suggested duration:</strong> 15–45 seconds &nbsp; <strong>Suggested format:</strong> MP4, 1920×1080</p>
+    </div>
+  </div>
+</section>
+<section id="rules">
+  <div class="wrap">
+    <div class="eyebrow">Before you submit</div><h2>Rules & submission guidelines</h2>
+    <div class="grid">
+      <article class="card"><h3>Original work</h3><p>Entries must be created by the participant/team. Do not submit plagiarised, stolen, or unauthorised third-party work.</p></article>
+      <article class="card"><h3>Submission format</h3><p>Upload the final video using the official submission link shared with verified registrants. Follow the file-size and naming instructions in the brief.</p></article>
+      <article class="card"><h3>Fair judging</h3><p>Entries will be assessed against the published judging criteria. The organiser's final competition decisions will follow the published terms.</p></article>
+      <article class="card"><h3>Late entries</h3><p>Submissions received after the deadline may be disqualified unless the organiser announces an extension.</p></article>
+      <article class="card"><h3>AI and assets</h3><p>Publish a clear policy on AI-generated content, stock assets, purchased assets, plugins, and third-party music before registration opens.</p></article>
+      <article class="card"><h3>Terms and consent</h3><p>Participants should read the official terms, privacy notice, refund policy, and consent requirements before paying or submitting.</p></article>
+    </div>
+    <div class="note"><strong>Organiser checklist:</strong> Finalise eligibility, team size, animation duration, submission specs, judging rubric, disqualification rules, copyright/licensing, refund policy, and privacy terms before publishing this page.</div>
+  </div>
+</section>
+<section id="prizes">
+  <div class="wrap">
+    <div class="eyebrow">Recognition & rewards</div><h2>Prizes</h2>
+    <p class="lead">Enter the final prize values and any certificates, mentorship, software, or career opportunities confirmed by XPLO. Do not advertise unconfirmed rewards.</p>
+    <div class="grid">
+      <article class="card"><div class="number">01</div><h3>First Prize</h3><p>₹[Add confirmed prize amount]</p></article>
+      <article class="card"><div class="number">02</div><h3>Second Prize</h3><p>₹[Add confirmed prize amount]</p></article>
+      <article class="card"><div class="number">03</div><h3>Third Prize</h3><p>₹[Add confirmed prize amount]</p></article>
+    </div>
+    <p class="small" style="margin-top:15px">Optional: add finalist certificates, special mentions, and prize-distribution terms once approved.</p>
+  </div>
+</section>
+<section id="dates">
+  <div class="wrap">
+    <div class="eyebrow">Plan your entry</div><h2>Important dates</h2>
+    <table><thead><tr><th>Milestone</th><th>Date</th></tr></thead><tbody>
+      <tr><td>Registration opens</td><td>[Add date]</td></tr>
+      <tr><td>Registration closes</td><td>[Add date]</td></tr>
+      <tr><td>Competition brief shared</td><td>[Add date]</td></tr>
+      <tr><td>Final submission deadline</td><td>[Add date and time, IST]</td></tr>
+      <tr><td>Results announced</td><td>[Add date]</td></tr>
+    </tbody></table>
+    <p class="small">All times should be stated in Indian Standard Time (IST). Update these dates before publishing.</p>
+  </div>
+</section>
+<section id="payment">
+  <div class="wrap">
+    <div class="eyebrow">Registration fee</div><h2>Payment instructions</h2>
+    <div class="grid">
+      <article class="card"><h3>Entry fee</h3><div class="number">₹[199]</div><p>Replace with the approved registration fee. Clearly state whether the fee is per person or per team.</p></article>
+      <article class="card"><h3>How to pay</h3><p>Use the official payment link below. After payment, complete the registration form and enter the payment reference/transaction ID if requested.</p><a class="btn" href="https://example.com/replace-payment-link" target="_blank" rel="noopener">PAY REGISTRATION FEE</a></article>
+      <article class="card"><h3>Verification</h3><p>Registration is confirmed only after the organiser verifies the payment and required registration details.</p></article>
+    </div>
+    <div class="note"><strong>Important:</strong> Replace the sample payment URL with XPLO's real payment link. Never publish a personal UPI/payment link unless it is approved for official competition collections. Add the refund/cancellation policy before accepting payments.</div>
+  </div>
+</section>
+<section id="register">
+  <div class="wrap">
+    <div class="eyebrow">Take part</div><h2>Register for the challenge</h2>
+    <p class="lead">Connect this button to your Google Form. Google Sites can embed the form, or you can link directly to it. The sample form below does not submit data anywhere.</p>
+    <a class="btn" href="https://docs.google.com/forms/" target="_blank" rel="noopener">OPEN REGISTRATION FORM</a>
+    <div class="card" style="margin-top:24px">
+      <h3>Suggested Google Form fields</h3>
+      <p>Full name • Email • Phone number • City/state • College/company (optional) • Participant type • Team name/size • Payment reference ID • Payment screenshot upload (optional) • Agreement to rules and privacy terms.</p>
+    </div>
+    <p class="small">For a live competition, use your own published Google Form URL and configure its response spreadsheet and file-upload permissions.</p>
+  </div>
+</section>
+<section id="contact">
+  <div class="wrap">
+    <div class="eyebrow">Need help?</div><h2>Contact the organiser</h2>
+    <p class="lead">For registration, payment verification, or submission questions, contact the XPLO competition team.</p>
+    <div class="grid">
+      <article class="card"><h3>Organiser</h3><p>XPLO Animation Services Pvt. Ltd.</p></article>
+      <article class="card"><h3>Email</h3><p><a href="mailto:subhashreehr@xploanimation.com">subhashreehr@xploanimation.com</a></p></article>
+      <article class="card"><h3>Location</h3><p>Chennai, Tamil Nadu, India</p></article>
+    </div>
+  </div>
+</section>
+</main>
+<footer><div class="wrap"><div class="brand">XPLO<span>°</span> ANIMATION</div><p>© 2026 XPLO Animation Services Pvt. Ltd. All rights reserved.</p><p class="small" style="color:#bbb">This is a draft webpage template. Replace all bracketed details and sample links, and approve the official rules, privacy notice, payment instructions, and terms before publishing.</p></div></footer>
+</body>
+</html>
